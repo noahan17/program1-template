@@ -4,13 +4,19 @@
 #include "Planet.h"
 #include "Vector.h"
 #include "Vector.h"
-#include "List.h"
-#include "List.h"
+//#include "List.h"
+//#include "List.h"
 #include <cassert>
 #include <iostream>
 #include <ctime>
 #include <sys/time.h>
-
+/*
+Citations:
+https://www.codeguru.com/cpp/cpp/cpp_mfc/stl/article.php/c4027/C-Tutorial-A-Beginners-Guide-to-stdvector-Part-1.htm
+https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/
+http://www.cplusplus.com/forum/beginner/85666/
+https://stackoverflow.com/questions/875103/how-do-i-erase-an-element-from-stdvector-by-index
+*/
 using namespace std;
 
 bool unique(long int ids[], int size){

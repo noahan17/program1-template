@@ -3,7 +3,7 @@
 #include <iostream>
 
 Planet::Planet(int id){
-	this->id = id;
+	this->id = &this;
 	this->distance = rand()% 3001;
     	this->pos = rand()%360;
 	char arrayType[3] = {'h', 'r', 'g'};
